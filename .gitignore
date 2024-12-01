@@ -1,0 +1,36 @@
+# Ignore Magento's generated directories
+/var/*
+/generated/*
+/vendor/*
+/pub/static/*
+/pub/media/*
+
+# Ignore sensitive config files
+/app/etc/env.php
+/app/etc/config.php
+
+# Ignore temporary files
+/tmp/*
+
+# Ignore PhpStorm project files
+/.idea/*
+
+# Ignore Node.js dependencies
+/node_modules/*
+
+# Ignore Composer lock file (optional, can be uncommented if preferred)
+/composer.lock
+
+# Ignore log files
+*.log
+
+# Ignore backup files
+*.bak
+
+# Ignore IDE specific files (e.g., VSCode, Sublime Text, etc.)
+.vscode/
+.idea/
+
+# Ignore operating system specific files
+.DS_Store
+Thumbs.db
